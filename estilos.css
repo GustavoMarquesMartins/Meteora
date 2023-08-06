@@ -1,0 +1,16 @@
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+@media screen and (min-width: 998px) {
+    .divs-facilidades {
+      width: 255px;
+    }
+  }
+  
+  body{
+  }
