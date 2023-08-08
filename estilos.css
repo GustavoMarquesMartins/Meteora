@@ -1,16 +1,26 @@
+:root {
+  --cor-de-fundo-botao-ver-mais: #9353ff;
+}
+
+
 .texto-menor {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .divs-facilidades {
-    width: 325px;
+  width: 325px;
 }
 
 @media screen and (min-width: 998px) {
-    .divs-facilidades {
-      width: 255px;
-    }
+  .divs-facilidades {
+    width: 255px;
   }
-  
-  body{
-  }
+}
+
+.botao-ver-mais {
+  background-color: var(--cor-de-fundo-botao-ver-mais);
+}
+
+.cor-icones-facilidades {
+  color: #DAFF01;
+}
