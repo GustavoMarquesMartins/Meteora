@@ -17,6 +17,16 @@
   }
 }
 
+@media screen and (max-width: 575px) {
+  .divs-facilidades {
+    width: 200px;
+
+  }
+  .div-novidades {
+    width: 321px;
+  }
+}
+
 .botao-ver-mais {
   background-color: var(--cor-de-fundo-botao-ver-mais);
 }
@@ -25,7 +35,8 @@
   color: #DAFF01;
 }
 
-
-.testando-para-ver-se-vai-dar-carto{
-
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
